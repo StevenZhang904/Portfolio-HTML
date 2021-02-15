@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 
 <html>
-  <body>
+  <head class="container">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Zehua Zhang's Portfolio" />
+    <meta
+      property="og:description"
+      content="Featuring About News and Projects."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2FWechatIMG345.jpeg?v=1613406231729"
+    />
+    <meta
+      property="og:url"
+      content="https://portfolio904.glitch.me/Portfolio.html"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="container">
+    <br />
     <h1>Portfolio</h1>
 
-    <nav>
+    <nav class="flex-container">
       <ul style="list-style-type:disc">
         <a href="#About">About</a>
         <a href="#News">News</a>
@@ -13,60 +43,117 @@
     </nav>
 
     <section id="About">
+
       <h2>Zehua Zhang</h2>
 
-      <img
-        src="https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2FIMG_1001.jpg?v=1612458303330"
-        alt="Image it yourself haha"
-        width="300"
-        height="400"
-      />
+      <div class="center ,col-6">
 
-      <h3>
-        Student @ Boston College <br />
-        Go Eagles Go
-      </h3>
+        <img 
+          src="https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2FIMG_1001.jpg?v=1612458303330"
+          alt="Image it yourself haha"
+          width="300"
+          height="400"
+        />
+        <h3 >
+          Student @ Boston College <br />
+          Go Eagles Go
+        </h3>
+        <p >
+          zhangbsr@bc.edu <br />
+          Beijing, China
+        </p>
 
-      <p>
-        zhangbsr@bc.edu <br />
-        Beijing, China
-      </p>
+        <p>
+          <a href="https://www.instagram.com/zzzzzzzzzzhang_90/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          | <a href=""><i class="fas fa-file"></i>Resume</a> |
+          <a href="https://github.com/StevenZhang904"
+            ><i class="fab fa-github"></i
+          ></a>
+        </p>
 
-      <p>
-        <a href="https://www.instagram.com/zzzzzzzzzzhang_90/">Instagram</a>
-        | <a href="">Resume</a> |
-        <a href="https://github.com/StevenZhang904">Github</a>
-      </p>
 
-      <p>
+      </div><div class = "col-12">
         Zehua (Steven) Zhang is a student of Computer Science and Economics at
         Boston College. He finished his high school in Beijing Number Four High
         School. Currently staying home and not doing much research work. My
         perspective of my study is utopian: improve people life quality by
         significantly increase industry productivity through the usage of
-        artificial intelligence.
-      </p>
+  artificial intelligence.</div>
+
+
     </section>
 
     <section id="News">
-      <h2>News</h2>
-      <div>
-        Start of the spring semester of my junior year Jan 28, 2021
-        <hr />
-        End of fall semester Dec 21, 2020
-        <hr />
-        First summer intern in THU Jun 1, 2018
-        <hr />
+      <h2 class="style1">News</h2>
+
+      <div class="row">
+        <div class="col-8">Start of the spring semester of my junior year</div>
+        <div class="col-4">Jan 28, 2021<br><hr></div>
+
+        <div class="col-8">End of fall semester</div>
+        <div class="col-4">Dec 21, 2020<br><hr></div>
+
+        <div class="col-8">First summer intern in THU</div>
+        <div class="col-4">Jun 1, 2018</div>
       </div>
     </section>
 
     <section id="Projects">
-      <a href="/Weather Gift detail.html">IOS project: Weather Gift</a><br />
-      <a href="https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2FWeather%20Gift%20demo.mp4?v=1612691783421" target="_blank"> Demo</a> 
-      <a href="https://github.com/bc-swift-2020s/weathergift-StevenZhang904">Source Code</a><br>
-      <a href = "/Snacktacular.html">IOS project: Snacktacular</a><br>
-            <a href="https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2FSnacktacular%20Demo.mp4?v=1612696083447" target="_blank"> Demo</a> 
-      <a href="https://github.com/bc-swift-2020s/snacktackular-StevenZhang904">Source Code</a><br>
+      <h2 class="style1">
+        Project
+      </h2>
+      <div class="row">
+        <div class= "center, col-6">
+          <img
+            src="https://cyfuture.com/blog/wp-content/uploads/2019/12/IOS-Development.jpg"
+            alt="IOS developer is not good at web enough yet"
+            width="252"
+            height="120"
+            class="animate__animated animate__bounce animate__repeat-5"
+            style="  display: block;margin-left: auto;margin-right: auto;width: 50%;object-fit:contain"
+          />
+          <hr />
+        </div>
+
+        <div class="col-8">
+          <a href="/Weather Gift detail.html">IOS project: Weather Gift</a>
+          <br />
+        </div>
+        <div class="col-4">
+          <a
+            class="style2"
+            href="https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2FWeather%20Gift%20demo.mp4?v=1612691783421"
+            target="_blank"
+          >
+            <i class="fas fa-video"></i>Demo</a
+          >
+          <a
+            class="style3"
+            href="https://github.com/bc-swift-2020s/weathergift-StevenZhang904"
+            ><i class="fas fa-code"></i>Source Code</a
+          >
+        </div>
+        <br />
+        <div class="col-8">
+          <a href="/Snacktacular.html">IOS project: Snacktacular</a><br />
+        </div>
+        <div class="col-4">
+          <a
+            class="style2"
+            href="https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2FSnacktacular%20Demo.mp4?v=1612696083447"
+            target="_blank"
+          >
+            <i class="fas fa-video"></i>Demo</a
+          >
+          <a
+            class="style3"
+            href="https://github.com/bc-swift-2020s/snacktackular-StevenZhang904"
+            ><i class="fas fa-code"></i>Source Code</a
+          ><br />
+        </div>
+      </div>
     </section>
   </body>
 </html>
