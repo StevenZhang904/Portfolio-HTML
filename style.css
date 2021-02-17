@@ -34,7 +34,7 @@ nav ul {
 }
 @media only screen and (min-width: 768px) {
   [class*="col-"] {
-    flex-basis: 100%;
+    
     box-sizing: border-box;
     border: 1px solid white;
     padding: 5px;
@@ -42,54 +42,54 @@ nav ul {
   }
 
   .col-1 {
-    width: 8.33%;
+    flex-basis: 8.33%;
       text-align:right;
   }
   .col-2 {
-    width: 16.66%;
+    flex-basis: 16.66%;
            text-align:right;
 
   }
   .col-3 {
-    width: 25%;
+    flex-basis: 25%;
            text-align:right;
 
   }
   .col-4 {
-    width: 33.33%;
+    flex-basis: 33.33%;
       text-align:right;
   }
   .col-5 {
-    width: 41.66%;
+    flex-basis: 41.66%;
            text-align:right;
 
   }
   .col-6 {
-    width: 50%;
+    flex-basis: 50%;
        text-align:right;
   }
   .col-7 {
-    width: 58.33%;
+    flex-basis: 58.33%;
        text-align:left;
   }
   .col-8 {
-    width: 66.66%;
+    flex-basis: 66.66%;
       text-align:left;
   }
   .col-9 {
-    width: 75%;
+    flex-basis: 75%;
        text-align:left;
   }
   .col-10 {
-    width: 83.33%;
+    flex-basis: 83.33%;
        text-align:left;
   }
   .col-11 {
-    width: 91.66%;
+    flex-basis: 91.66%;
        text-align:left;
   }
   .col-12 {
-    width: 100%;
+    flex-basis: 100%;
        text-align:left;
   }
 }
@@ -142,5 +142,8 @@ nav ul {
   margin-right: auto;
   width: 50%;
 } /* setting to center*/
+  [class = "col-"]{
+    flex-basis: 100%;
+  }
 }
 
