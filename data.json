@@ -1,13 +1,14 @@
 {
   "About":{
-    "name": "Zehua Zhang",
-    "photo": "assets/IMG_1001.jpg",
+    "Name": "Zehua Zhang",
+    "Photo": "https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2FIMG_1001.jpg?v=1612458303330",
     "Contact_info":"zhangbsr@bc.edu<br>Beijing, China",
     "ResumeLink":"",
     "GithubLink":"https://github.com/StevenZhang904",
     "InsLink":"https://www.instagram.com/zzzzzzzzzzhang_90/",
-    "Intro":"Zehua (Steven) Zhang is a student of Computer Science and Economics at Boston College. He finished his high school in Beijing Number Four High School. Currently staying home and not doing much research work. My perspective of my study is utopian: increase industry productivity through the usage of artificial intelligence."
-    
+    "Intro":"Zehua (Steven) Zhang is a student of Computer Science and Economics at Boston College. He finished his high school in Beijing Number Four High School. Currently staying home and not doing much research work. My perspective of my study is utopian: increase industry productivity through the usage of artificial intelligence.",
+    "Slogan":"Student @ Boston College <br />Go Eagles Go"
+
   },
   "News":[
     {
@@ -26,16 +27,30 @@
   
   "Projects":[
     {
-      "ID":"1",
-      "Project_title":"Weather Gift",
-      "DetailsURL":"/Weather Gift detail.html",
+      "ID":"0",
+      "Project_title":"WeatherGift",
+      "DetailsURL":"/WeatherGiftdetail.html",
+      "DetailImg":["https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2F%E6%88%AA%E5%B1%8F2021-02-07%2018.14.28.png?v=1612692888121",
+                  "https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2F%E6%88%AA%E5%B1%8F2021-02-07%2018.20.05.png?v=1612693221160"],
+      "DetailDescription":"This App is built following the instructions of Prof John Gallaugher. It is designed to be a Weather Info App that offers users weather information including: temperature, precipitation possbility and weather prediction in the following week. The API used in the App is DarkSky API.",
+      "Features":["Decoding JSON data from OpenWeather API",
+                  "Google Place Autocomplete",
+                  "Creating collection views, page view controllers, and converting time to different time zone",
+                  "Converting the weather symbols with personal pictures"],
       "DemoVideo":"https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2FWeather%20Gift%20demo.mp4?v=1612691783421",
       "SourceCode":"https://github.com/bc-swift-2020s/weathergift-StevenZhang904"
     },
         {
-      "ID":"2",
+      "ID":"1",
       "Project_title":"Snacktacular",
       "DetailsURL":"/Snacktacular.html",
+      "DetailImg":["https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2F%E6%88%AA%E5%B1%8F2021-02-07%2019.01.25.png?v=1612695918209",
+                  "https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2F%E6%88%AA%E5%B1%8F2021-02-07%2018.59.50.png?v=1612695916173",
+                   "https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2F%E6%88%AA%E5%B1%8F2021-02-07%2019.01.06.png?v=1612695914302"],
+      "DetailDescription": "This App is built following the instructions of Prof John Gallaugher. It is designed to simulate Yelp. By logging in with your Gmail account, users could check other's rating and reviews of the place they would like to go to. At the same time, they could also add reviews and pictures by themselves and store them online.",
+      "Features":["Firebase authentication for multi-user log-in via Google credentials",
+                 "Google Place Autocomplete for fast lookup of businesses worldwide",
+                 "Google Cloud Firestore real-time database, Firebase Storage for the storing and sharing of images"],
       "DemoVideo":"https://cdn.glitch.com/d2b1a597-a9b2-4ac0-a3f0-776fb6ee98a3%2FSnacktacular%20Demo.mp4?v=1612696083447",
       "SourceCode":"https://github.com/bc-swift-2020s/snacktackular-StevenZhang904"
     }
